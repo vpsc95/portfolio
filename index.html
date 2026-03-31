@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivek Singh &mdash; Solutions Architect, Data &amp; AI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Particle Canvas Background -->
+  <canvas id="particles"></canvas>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-logo">VS</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Journey</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#beyond">Beyond Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section id="hero" class="section hero">
+    <div class="hero-content">
+      <div class="hero-greeting reveal">Hello, I'm</div>
+      <h1 class="hero-name reveal">
+        <span class="name-line" data-text="Vivek Singh">Vivek Singh</span>
+      </h1>
+      <div class="hero-titles reveal">
+        <span class="typed-text" id="typed"></span><span class="typed-cursor">|</span>
+      </div>
+      <p class="hero-summary reveal">
+        Solutions Architect at Microsoft with 9+ years of experience driving enterprise Data &amp; AI transformations.
+        Trusted advisor to CTOs and CIOs at Fortune 500 companies &mdash; turning complex cloud challenges into measurable business outcomes.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#experience" class="btn btn-primary">View My Journey</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-highlight reveal">
+        <div class="highlight-badge">
+          <span class="highlight-icon">&#9733;</span>
+          <span class="highlight-text">Big5 Bank AWS Win-Back: $300K &rarr; $1.5M/month + $518M MACC</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">01.</span> About Me
+      </h2>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="image-frame">
+            <div class="image-placeholder">
+              <img src="microsoft.jpg" alt="Vivek Singh" />
+            </div>
+            <div class="image-border"></div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            I'm a Solutions Architect at <strong>Microsoft</strong> specializing in Data &amp; AI, based in Toronto.
+            I drive pre-sales solutioning, architecture design, and competitive platform positioning across enterprise pursuits
+            involving hyperscaler competes (AWS, GCP) and platform competes (Databricks, Snowflake).
+          </p>
+          <p>
+            Recognized as a <strong>Fabric and Databricks Champion</strong> at Microsoft, I serve as a Technical SME (L400)
+            for enterprise data platforms including Microsoft Fabric, Azure Databricks, Apache Spark, Delta Lake, and modern
+            lakehouse architectures. I've led 45+ workshops and driven multi-million dollar revenue wins across FSI, Retail,
+            PubSec, Manufacturing, and Utility sectors.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-target="9">0</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="45">0</span>
+              <span class="stat-label">Workshops Led</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="7">0</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EDUCATION ==================== -->
+  <section id="education" class="section education">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">02.</span> Education
+      </h2>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="edu-year">2018 &ndash; 2019</div>
+          <div class="edu-icon">&#127891;</div>
+          <h3>Master of Business Analytics (Data Science)</h3>
+          <h4>Schulich School of Business, York University</h4>
+          <p>Predictive Modeling, Data Science, Artificial Intelligence, Visualization Analytics</p>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-year">2013 &ndash; 2017</div>
+          <div class="edu-icon">&#128218;</div>
+          <h3>Bachelor of Engineering (Mechanical)</h3>
+          <h4>Manipal University</h4>
+          <p>Statistics, Probability, Operation Research, Finite Element Methods, Computer Aided Design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== VIDEO ==================== -->
+  <section id="video" class="section video-section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">03.</span> Watch My Story
+      </h2>
+      <div class="video-wrapper reveal">
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube.com/embed/SzsI67-4gbk"
+            title="About Vivek Singh"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE / JOURNEY ==================== -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">04.</span> My Journey
+      </h2>
+      <div class="timeline">
+
+        <!-- Microsoft -->
+        <div class="timeline-item reveal" data-side="left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">May 2022 &ndash; Present</span>
+            <h3>Solutions Architect &mdash; Data &amp; AI</h3>
+            <h4>Microsoft, Toronto</h4>
+            <ul class="timeline-bullets">
+              <li>Pre-Sales &amp; Solutioning Lead driving architecture design and competitive positioning in enterprise pursuits against AWS, GCP, Databricks, and Snowflake.</li>
+              <li>Big5 bank AWS win-back with Fabric: $300K to $1.5M/month revenue growth + $518M MACC + 800-hour unified contract.</li>
+              <li>Technical SME (L400) for Microsoft Fabric, Azure Databricks, Apache Spark, Delta Lake, Unity Catalog, Medallion Architecture, Synapse, and Data Factory.</li>
+              <li>Trusted Advisor for CTOs, CIOs, CAOs and Chief Data Architects on Microsoft technology adoption.</li>
+              <li>Led 45+ Fabric, Databricks and Spark workshops for enterprises on performance tuning and optimization.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Fabric</span><span>Databricks</span><span>Spark</span><span>Azure</span><span>Pre-Sales</span><span>Architecture</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Accenture -->
+        <div class="timeline-item reveal" data-side="right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">May 2019 &ndash; April 2022</span>
+            <h3>Principal Data Engineer</h3>
+            <h4>Accenture, Toronto</h4>
+            <ul class="timeline-bullets">
+              <li>Led data platform modernization and cloud migration initiatives, defining architectures from legacy systems to Azure.</li>
+              <li>Principal Spark Developer: Designed distributed data architectures on Synapse, Databricks, Spark, Delta Lake for multi-petabyte-scale pipelines.</li>
+              <li>Pre-sales and solutioning for data lakehouse implementations, structured streaming, and AI/ML solutions.</li>
+              <li>Led Databricks Spark Bootcamp for 40+ analysts and developers.</li>
+              <li>Managed a team of 12+ data engineers, analysts, and strategy consultants.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Synapse</span><span>Databricks</span><span>Delta Lake</span><span>Team Lead</span><span>Migration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deloitte -->
+        <div class="timeline-item reveal" data-side="left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Sep 2018 &ndash; Apr 2019</span>
+            <h3>Data Science Consultant</h3>
+            <h4>Deloitte Consulting, Toronto</h4>
+            <ul class="timeline-bullets">
+              <li>Worked with Deloitte Omnia's AI practice IP Factory to build automated data pipelines on Azure for predictive modeling and feature engineering.</li>
+              <li>Developed Spark-based ETL workflows to streamline feature selection, model training, and inference at scale using Agile SDLC.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Data Science</span><span>Azure Databricks</span><span>ETL</span><span>Predictive Modeling</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- SPUN -->
+        <div class="timeline-item reveal" data-side="right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Jun 2015 &ndash; May 2017</span>
+            <h3>Data Engineer</h3>
+            <h4>SPUN Micro Processing (Automotive Manufacturing)</h4>
+            <ul class="timeline-bullets">
+              <li>Implemented Statistical Process Control (SPC) to analyze high-volume manufacturing sensor data using on-prem Hadoop.</li>
+              <li>Optimized defect detection &amp; predictive maintenance using big data processing.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Hadoop</span><span>SPC</span><span>Big Data</span><span>Manufacturing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS ==================== -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">05.</span> Skills &amp; Expertise
+      </h2>
+      <div class="skills-grid">
+
+        <!-- Programming Languages -->
+        <div class="skill-category reveal">
+          <div class="skill-icon">&#128187;</div>
+          <h3>Programming Languages</h3>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="skill-info"><span>Apache Spark / PySpark</span><span>95%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>Python</span><span>90%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>SQL</span><span>95%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>Scala</span><span>70%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>R</span><span>65%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="65"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>SAS</span><span>60%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="60"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Qualitative / Leadership Skills -->
+        <div class="skill-category reveal">
+          <div class="skill-icon">&#127775;</div>
+          <h3>Leadership &amp; Advisory</h3>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="skill-info"><span>Executive Communication</span><span>95%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>Technical Sales &amp; Pre-Sales</span><span>95%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>Solution Architecture</span><span>92%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>Workshop &amp; Training Delivery</span><span>90%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>Client Relationship Mgmt</span><span>92%</span></div>
+              <div class="bar-bg"><div class="bar-fill" data-width="92"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Platforms & Tools -->
+        <div class="skill-category reveal">
+          <div class="skill-icon">&#9881;</div>
+          <h3>Data Platforms &amp; Tools</h3>
+          <div class="tool-cloud">
+            <span class="tool-tag">Microsoft Fabric</span>
+            <span class="tool-tag">Azure Databricks</span>
+            <span class="tool-tag">Delta Lake</span>
+            <span class="tool-tag">Azure Synapse</span>
+            <span class="tool-tag">Azure Data Factory</span>
+            <span class="tool-tag">Azure Data Lake Storage</span>
+            <span class="tool-tag">Azure SQL</span>
+            <span class="tool-tag">Azure OpenAI</span>
+            <span class="tool-tag">Unity Catalog</span>
+            <span class="tool-tag">Microsoft Purview</span>
+            <span class="tool-tag">Event Hubs</span>
+            <span class="tool-tag">CosmosDB</span>
+            <span class="tool-tag">Power BI</span>
+            <span class="tool-tag">Tableau</span>
+            <span class="tool-tag">Git DevOps</span>
+            <span class="tool-tag">CI/CD</span>
+            <span class="tool-tag">Apache Iceberg</span>
+            <span class="tool-tag">Hadoop</span>
+            <span class="tool-tag">Keras</span>
+            <span class="tool-tag">TensorFlow</span>
+            <span class="tool-tag">Scikit-Learn</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Industry Focus -->
+      <div class="industry-focus reveal">
+        <h3 class="industry-title">Industry Focus</h3>
+        <div class="industry-tags">
+          <span class="industry-tag">
+            <span class="industry-icon">&#127974;</span>
+            <span>FSI Big5 Banking</span>
+          </span>
+          <span class="industry-tag">
+            <span class="industry-icon">&#128722;</span>
+            <span>Retail</span>
+          </span>
+          <span class="industry-tag">
+            <span class="industry-icon">&#127963;</span>
+            <span>Public Sector</span>
+          </span>
+          <span class="industry-tag">
+            <span class="industry-icon">&#9881;</span>
+            <span>Manufacturing</span>
+          </span>
+          <span class="industry-tag">
+            <span class="industry-icon">&#9889;</span>
+            <span>Utility</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CERTIFICATIONS ==================== -->
+  <section id="certifications" class="section certifications">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">06.</span> Certifications
+      </h2>
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-badge">&#127941;</div>
+          <h3>Databricks Certified Associate Developer</h3>
+          <p>Apache Spark 3.0</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge">&#9729;</div>
+          <h3>DP-203: Azure Data Engineer Associate</h3>
+          <p>Microsoft Certified</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge">&#128202;</div>
+          <h3>SAS Certified Base Programmer</h3>
+          <p>SAS 9</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge">&#129302;</div>
+          <h3>AI-900: Azure AI Fundamentals</h3>
+          <p>Microsoft Certified</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge">&#9729;</div>
+          <h3>AZ-900: Azure Fundamentals</h3>
+          <p>Microsoft Certified</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge">&#128451;</div>
+          <h3>DP-900: Azure Data Fundamentals</h3>
+          <p>Microsoft Certified</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge">&#128218;</div>
+          <h3>SQL Bootcamp</h3>
+          <p>Udemy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== BEYOND WORK ==================== -->
+  <section id="beyond" class="section beyond">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">07.</span> Beyond Work
+      </h2>
+
+      <!-- Non-Profit -->
+      <div class="beyond-subsection">
+        <h3 class="beyond-subtitle reveal">Community &amp; Non-Profit</h3>
+        <div class="beyond-grid">
+          <div class="beyond-card reveal">
+            <div class="beyond-icon">&#128300;</div>
+            <h4>Spark Instructor</h4>
+            <p>Delivered 40+ Spark and Azure Databricks trainings, creating hands-on notebooks to build advanced data engineering capability across analyst and developer cohorts.</p>
+          </div>
+          <div class="beyond-card reveal">
+            <div class="beyond-icon">&#128247;</div>
+            <h4>Photographer &mdash; Let's Care Foundation</h4>
+            <p>Documented medical rescues, rehabilitation, and adoption initiatives for a street-animal non-profit in India to support awareness and fundraising efforts.</p>
+          </div>
+          <div class="beyond-card reveal">
+            <div class="beyond-icon">&#128588;</div>
+            <h4>Volunteer &mdash; The Art of Living</h4>
+            <p>Organized yoga, meditation, health awareness, and community outreach programs as part of a global humanitarian NGO operating in 150+ countries.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interests -->
+      <div class="beyond-subsection">
+        <h3 class="beyond-subtitle reveal">Interests &amp; Passions</h3>
+        <div class="interest-tags reveal">
+          <span class="interest-tag">
+            <span class="interest-icon">&#128170;</span>
+            <span>Men's Physique Bodybuilding &amp; Certified PT</span>
+          </span>
+          <span class="interest-tag">
+            <span class="interest-icon">&#128663;</span>
+            <span>Automotive Enthusiast &amp; Car Group Founder</span>
+          </span>
+          <span class="interest-tag">
+            <span class="interest-icon">&#127952;</span>
+            <span>Provincial Volleyball Player</span>
+          </span>
+          <span class="interest-tag">
+            <span class="interest-icon">&#128247;</span>
+            <span>Photography Enthusiast</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">08.</span> Get In Touch
+      </h2>
+      <div class="contact-content reveal">
+        <p class="contact-intro">
+          I'm always open to new opportunities, collaborations, and conversations around Data &amp; AI.
+          Feel free to reach out!
+        </p>
+        <div class="contact-links">
+          <a href="mailto:vivsingh@microsoft.com" class="contact-item">
+            <span class="contact-icon">&#9993;</span>
+            <span>vivsingh@microsoft.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/vpsc95" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">&#128279;</span>
+            <span>linkedin.com/in/vpsc95</span>
+          </a>
+          <a href="tel:+16477671270" class="contact-item">
+            <span class="contact-icon">&#128222;</span>
+            <span>+1 (647) 767-1270</span>
+          </a>
+          <div class="contact-item location-item">
+            <span class="contact-icon">&#128205;</span>
+            <span>Toronto, ON, Canada</span>
+          </div>
+        </div>
+        <a href="mailto:vivsingh@microsoft.com" class="btn btn-primary btn-large">Say Hello</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Vivek Singh. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
