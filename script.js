@@ -142,11 +142,11 @@
 
   // ---------- Typed Text Effect ----------
   const titles = [
-    'Solutions Architect — Data & AI',
-    'Microsoft Fabric & Databricks Champion',
-    'Pre-Sales & Solutioning Lead',
-    'Trusted Advisor to CTOs & CIOs',
-    'Enterprise Data Platform SME',
+    'Solution Engineer — Data & AI',
+    'Canadian ISV Pre-Sales Lead',
+    'Microsoft Fabric & Databricks Specialist',
+    'Executive Technology Advisor',
+    'Enterprise Data Platform Specialist',
     'Spark Instructor & Community Builder'
   ];
 

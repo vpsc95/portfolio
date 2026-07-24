@@ -1,0 +1,4 @@
+.azure/*
+!.azure/deployment-plan.md
+node_modules/
+public/

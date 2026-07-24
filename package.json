@@ -1,0 +1,8 @@
+{
+  "name": "vivek-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"const fs=require('fs');fs.mkdirSync('public',{recursive:true});for(const file of fs.readdirSync('.')){if(/\\.(html|css|js|png|jpe?g|gif|svg|ico|json|xml|txt|webmanifest|map)$/i.test(file)&&file!=='package.json'){fs.copyFileSync(file,'public/'+file)}}\""
+  }
+}

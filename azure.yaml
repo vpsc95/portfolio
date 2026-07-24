@@ -1,0 +1,14 @@
+name: vivek-portfolio
+metadata:
+  template: vivek-portfolio@0.0.1
+
+infra:
+  provider: bicep
+  path: infra
+
+services:
+  web:
+    project: .
+    language: js
+    host: staticwebapp
+    dist: public
